@@ -408,17 +408,31 @@ def annealingSolve(mySudoku):
 #        ]
 #        ]
 
+#mySudoku = np.r_[
+#        [
+#        [1, np.nan, np.nan, 5, np.nan, np.nan, 9, np.nan, 6],
+#        [np.nan, np.nan, 5, np.nan, np.nan, np.nan, 2,np.nan,np.nan],
+#        [4,np.nan,np.nan,8,np.nan,np.nan,7,5,np.nan],
+#        [np.nan,np.nan,3,6,8,np.nan,4,np.nan,np.nan],
+#        [np.nan,np.nan,1,np.nan,9,2,np.nan,np.nan,np.nan],
+#        [np.nan,7,np.nan,np.nan,4,np.nan,np.nan,np.nan,8],
+#        [np.nan,1,7,9,3,np.nan,np.nan,2,np.nan],
+#        [np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,np.nan],
+#        [2,np.nan,np.nan,np.nan,6,4,1,3,np.nan]
+#        ]
+#        ]
+
 mySudoku = np.r_[
         [
-        [1, np.nan, np.nan, 5, np.nan, np.nan, 9, np.nan, 6],
-        [np.nan, np.nan, 5, np.nan, np.nan, np.nan, 2,np.nan,np.nan],
-        [4,np.nan,np.nan,8,np.nan,np.nan,7,5,np.nan],
-        [np.nan,np.nan,3,6,8,np.nan,4,np.nan,np.nan],
-        [np.nan,np.nan,1,np.nan,9,2,np.nan,np.nan,np.nan],
-        [np.nan,7,np.nan,np.nan,4,np.nan,np.nan,np.nan,8],
-        [np.nan,1,7,9,3,np.nan,np.nan,2,np.nan],
-        [np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,np.nan],
-        [2,np.nan,np.nan,np.nan,6,4,1,3,np.nan]
+        [2, np.nan, np.nan, 3, np.nan, 7, 1, np.nan, np.nan],
+        [np.nan, np.nan, np.nan, np.nan, 6, 2, 8,np.nan,np.nan],
+        [np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,6,5,2],
+        [5,1,np.nan,np.nan,2,np.nan,np.nan,np.nan,6],
+        [7,np.nan,np.nan,np.nan,4,np.nan,5,np.nan,1],
+        [4,3,np.nan,np.nan,np.nan,5,np.nan,np.nan,8],
+        [6,np.nan,3,np.nan,1,np.nan,np.nan,8,np.nan],
+        [9,2,np.nan,np.nan,3,np.nan,np.nan,1,np.nan],
+        [8,np.nan,1,np.nan,np.nan,np.nan,np.nan,6,np.nan]
         ]
         ]
 
